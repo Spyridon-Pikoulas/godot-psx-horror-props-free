@@ -1,0 +1,32 @@
+[gd_scene load_steps=5 format=3]
+
+[ext_resource type="PackedScene" path="res://addons/psx_horror_props/models/fuse_box_model.glb" id="1"]
+
+[sub_resource type="BoxShape3D" id="box0"]
+size = Vector3(0.3600, 0.6800, 0.1400)
+
+[sub_resource type="BoxShape3D" id="box1"]
+size = Vector3(0.3600, 0.4800, 0.0320)
+
+[sub_resource type="BoxShape3D" id="box2"]
+size = Vector3(0.0590, 0.2350, 0.0500)
+
+[node name="fuse_box" instance=ExtResource("1")]
+
+[node name="Collision" type="StaticBody3D" parent="fuse_box"]
+
+[node name="Box" type="CollisionShape3D" parent="fuse_box/Collision"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0000, 1.2400, 0.0700)
+shape = SubResource("box0")
+
+[node name="Collision" type="StaticBody3D" parent="fuse_box/fuse_box_door"]
+
+[node name="Box" type="CollisionShape3D" parent="fuse_box/fuse_box_door/Collision"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.1800, 0.2400, 0.0100)
+shape = SubResource("box1")
+
+[node name="Collision" type="StaticBody3D" parent="fuse_box/fuse_box_lever"]
+
+[node name="Box" type="CollisionShape3D" parent="fuse_box/fuse_box_lever/Collision"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0145, 0.0925, -0.0000)
+shape = SubResource("box2")

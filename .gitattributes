@@ -1,0 +1,9 @@
+* text=auto eol=lf
+*.png binary
+*.glb binary
+*.fbx binary
+/.assetlib export-ignore
+/LICENSE export-ignore
+/README.md export-ignore
+/.gitattributes export-ignore
+/.gitignore export-ignore
