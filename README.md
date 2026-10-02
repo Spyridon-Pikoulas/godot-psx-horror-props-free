@@ -9,6 +9,13 @@ animations: a floor safe whose dial spins and door swings open, a typewriter tha
 chest, a key cabinet, levers, valves and gauges, medical supplies, tapes and ammo, and a Unity
 package. Same addon, same look: it installs over this one.
 
+For the set dressing around them, [PSX Horror Props II Free](https://heyheythere.itch.io/psx-horror-props-2-free)
+has 12 more, free too: a porcelain doll whose head turns, a grimoire, a gibbet, candles and a
+ritual circle.
+
+For the rooms to put them in, [PSX Hospital Kit Free](https://heyheythere.itch.io/psx-hospital-kit-free)
+has 15 modular hospital pieces, free too.
+
 ### What's inside
 
 - **Keys and locks:** a skeleton key, a red keycard, a padlock that opens, a card reader.
@@ -34,6 +41,14 @@ fuse_box.get_node("AnimationPlayer").play("open")
 For the full PS1 look, [PSX Look](https://heyheythere.itch.io/psx-look) turns the props (and your
 level) over in one line: wobbling vertices, warping textures, 240p, dither and 15-bit colour. Its
 [free sampler](https://heyheythere.itch.io/psx-look-free) has the vertex snap and affine textures.
+
+For the sound of it, [PSX Horror SFX](https://heyheythere.itch.io/psx-horror-sfx) has footsteps
+on concrete, tile and metal, creaking doors, creatures, stingers and the typewriter save,
+PS1-style ([30 free](https://heyheythere.itch.io/psx-horror-sfx-free)).
+
+For the screens around them, [PSX Horror UI](https://heyheythere.itch.io/psx-horror-ui) is a PS1
+survival horror menu kit for Godot 4 (inventory, examine, map, files, typewriter save) whose item
+icons are rendered from PSX Horror Props.
 
 ### License
 
